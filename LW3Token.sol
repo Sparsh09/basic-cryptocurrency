@@ -9,4 +9,7 @@ contract BasicCryptoCurrency is ERC20 {
 		_mint(msg.sender, 1000 * (10 ** 18));
 
 	}
+	function mint() public {
+		_mint(msg.sender, 1000*(10**18));
+	}
 }
